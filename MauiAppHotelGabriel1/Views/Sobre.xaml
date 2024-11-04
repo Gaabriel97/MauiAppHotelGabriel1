@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotelGabriel1.Views.Sobre"
+             Title="Sobre"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="Black">
+    <VerticalStackLayout VerticalOptions="CenterAndExpand"
+                         Padding="10"
+                         Spacing="50">
+        <Label 
+            Text="Sobre"
+            FontFamily="UnlockRegular"
+            FontSize="40"
+            TextColor="{StaticResource Primary}"
+            HorizontalOptions="Center"/>
+        <Label
+            Text="Este aplicativo foi desenvolvido com o intuito de calcular os preços de hospedagem"
+            FontFamily="UnlockRegular"
+            FontSize="20"
+            TextColor="White"
+            HorizontalOptions="Center"/>
+        <Label
+            Text="Desenvolvedor: Gabriel Vilela"
+            FontFamily="UnlockRegular"
+            FontSize="20"
+            TextColor="White"
+            HorizontalOptions="Center"/>
+        <Label
+            Text="Ano de desenvolvimento: 2024"
+            FontFamily="UnlockRegular"
+            FontSize="20"
+            TextColor="White"
+            HorizontalOptions="Center"/>
+        <Label
+            Text="Versão do Aplicativo: 1.0.0"
+            FontFamily="UnlockRegular"
+            FontSize="20"
+            TextColor="White"
+            HorizontalOptions="Center"/>
+        <Label
+            Text="Tecnologias Utilizadas: .NET MAUI, C#, XAML"
+            FontFamily="UnlockRegular"
+            FontSize="20"
+            TextColor="White"
+            HorizontalOptions="Center"/>
+        <Label
+            Text="Contato: gabriel.vilela@gmail.com"
+            FontFamily="UnlockRegular"
+            FontSize="20"
+            TextColor="White"
+            HorizontalOptions="Center"/>
+        
+
+
+    </VerticalStackLayout>
+</ContentPage>
